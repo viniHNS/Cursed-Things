@@ -166,6 +166,8 @@ CursedThings/
 - Revolver handling sounds (hammer, loading gate, ejector rod): from the Peacemaker mod.
 - Magnum Research BFR .50 BMG model: from the BFR50BMG H3VR mod by **Volks**.
 - Handcannon PZ model: from the Handcannon PZ H3VR mod by **ShermanJumbo** (model from Resident Evil Village).
+- Tactical nuclear hand grenade model: adapted from [Athom grenade](https://sketchfab.com/3d-models/athom-grenade-c6e43eb37da349e2a5d91ec90c52e167) by [BadVibes4EVER](https://sketchfab.com/BadVibes4EVER), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The body and spoon were rescaled and fitted to the game's M18 grenade (the pin and ring are the M18's), and the textures were converted to the game's materials. These assets retain their CC BY 4.0 attribution; the mod's MIT license covers the code.
+- M69 practice hand grenade model: [M69 Hand Grenade and M228 Fuze](https://sketchfab.com/3d-models/m69-hand-grenade-and-m228-fuze-8487b035f785401ca4e495a84e36b952) by [MACINTOSH Plus](https://sketchfab.com/macintoshplus941) (Sketchfab Standard license).
 
 ---
 
@@ -183,4 +185,4 @@ CursedThings/
 
 ## License
 
-The code of this mod is licensed under the [MIT License](LICENSE). Third-party assets keep their own licenses (see [Credits](#credits)): the Peacemaker animations are CC BY 3.0.
+The code of this mod is licensed under the [MIT License](LICENSE). Third-party assets keep their own licenses and are not covered by the MIT License (see [Credits](#credits)): the Peacemaker animations are CC BY 3.0 and the nuclear grenade model is CC BY 4.0.
