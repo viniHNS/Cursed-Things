@@ -1,0 +1,254 @@
+{
+  "fd3741820feaf281c62fceef": {
+    "itemTplToClone": "633ec7c2a6918cb895019c6c",
+    "parentId": "617f1ef5e8b54b0998387733",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "weapon_handcannon_pz_762x51_container.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "fb42f0512cfe70ca2339b8f2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "fd3741820feaf281c62fceef",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "57d6c384a679bfbc994a98d4"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        }
+      ],
+      "Width": 3,
+      "Height": 1,
+      "Weight": 2.2,
+      "Ergonomics": 35,
+      "RecoilForceUp": 540,
+      "RecoilForceBack": 375,
+      "RecoilCamera": 0.117,
+      "Velocity": -10,
+      "CenterOfImpact": 0.12,
+      "Foldable": false,
+      "ammoCaliber": "Caliber762x51",
+      "defAmmo": "58dd3ad986f77403051cba8f",
+      "defMagType": "57d6c384a679bfbc994a98d4",
+      "weapFireType": [
+        "single"
+      ],
+      "weapClass": "pistol",
+      "weapUseType": "secondary"
+    },
+    "locales": {
+      "en": {
+        "name": "Handcannon PZ",
+        "shortName": "Handcannon",
+        "description": "The Handcannon PZ is a heavy single-action revolver chambered for 7.62x51 NATO, a full-power rifle cartridge. It has a stainless steel frame with a wooden grip, a five-round cylinder and a long, heavy barrel. The hammer must be cocked by hand before every shot, and the cylinder is loaded and emptied one chamber at a time through the loading gate on the right side, with the ejector rod pushing out each spent case. Part of the propellant gas escapes through the gap between the cylinder and the barrel, so the bullet leaves the muzzle slower than from a rifle and the blast is fierce."
+      },
+      "po": {
+        "name": "Handcannon PZ",
+        "shortName": "Handcannon",
+        "description": "O Handcannon PZ é um revólver pesado de ação simples que dispara o 7.62x51 NATO, um cartucho de fuzil de potência total. Tem armação de aço inox com punho de madeira, tambor de cinco tiros e cano longo e pesado. O cão precisa ser engatilhado à mão antes de cada disparo, e o tambor é carregado e esvaziado uma câmara por vez pela portinhola do lado direito, com a vareta empurrando cada estojo vazio. Parte dos gases escapa pela folga entre o tambor e o cano, então a bala sai mais devagar que de um fuzil e o estampido é violento."
+      }
+    },
+    "fleaPriceRoubles": 77000,
+    "handbookPriceRoubles": 77000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false,
+    "addtoInventorySlots": [
+      "Holster"
+    ]
+  },
+  "57d6c384a679bfbc994a98d4": {
+    "itemTplToClone": "633ec6ee025b096d320a3b15",
+    "parentId": "610720f290b75a49ff2e5e25",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mag_handcannon_pz_762x51_5.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "15ae067803db353c6a7f8f3f",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_000",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "02c2e83774730cc9a9121f62",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_001",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "61256a6f28f8fb80f957b132",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_002",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "dd821d2f62222cf1d49639ff",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_003",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "953bfd701c93cd589f526b40",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_004",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Weight": 0.4,
+      "Ergonomics": 0,
+      "Recoil": 0,
+      "Cartridges": [
+        {
+          "_id": "b1b5d650d3b8a45481a81dd1",
+          "_max_count": 5,
+          "_name": "cartridges",
+          "_parent": "57d6c384a679bfbc994a98d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58dd3ad986f77403051cba8f",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "5e023e53d4353e3302577c4c",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Handcannon PZ 5-round 7.62x51 cylinder",
+        "shortName": "HC cyl.",
+        "description": "A five-chamber 7.62x51 cylinder for the Handcannon PZ revolver."
+      },
+      "po": {
+        "name": "Tambor de 5 tiros 7.62x51 do Handcannon PZ",
+        "shortName": "Tambor HC",
+        "description": "Tambor de cinco câmaras 7.62x51 para o revólver Handcannon PZ."
+      }
+    },
+    "fleaPriceRoubles": 8000,
+    "handbookPriceRoubles": 8000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  }
+}

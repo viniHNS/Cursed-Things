@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursedThings.Server", "Server\CursedThings.csproj", "{337FA0B2-03C0-4FDD-9ACF-C21DEFF308FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursedThings.Client", "Client\CursedThings.csproj", "{224DB827-DC4E-4176-A13C-3E55CD3ED216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{337FA0B2-03C0-4FDD-9ACF-C21DEFF308FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337FA0B2-03C0-4FDD-9ACF-C21DEFF308FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337FA0B2-03C0-4FDD-9ACF-C21DEFF308FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337FA0B2-03C0-4FDD-9ACF-C21DEFF308FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224DB827-DC4E-4176-A13C-3E55CD3ED216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224DB827-DC4E-4176-A13C-3E55CD3ED216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224DB827-DC4E-4176-A13C-3E55CD3ED216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224DB827-DC4E-4176-A13C-3E55CD3ED216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

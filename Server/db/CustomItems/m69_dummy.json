@@ -1,0 +1,69 @@
+{
+  "b239ff5680843899b92c4214": {
+    "itemTplToClone": "58d3db5386f77426186285a0",
+    "parentId": "543be6564bdc2df4348b4568",
+    "handbookParentId": "5b5f7a2386f774093f2ed3c4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "weapon_grenade_m69_dummy_container.bundle",
+        "rcid": ""
+      },
+      "ExplosionEffectType": "",
+      "FragmentsCount": 0,
+      "Strength": 0,
+      "MinExplosionDistance": 0,
+      "MaxExplosionDistance": 0,
+      "Contusion": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ContusionDistance": 0,
+      "Blindness": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ArmorDistanceDistanceDamage": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "CanPlantOnGround": false
+    },
+    "locales": {
+      "en": {
+        "name": "M69 practice hand grenade",
+        "shortName": "M69",
+        "description": "The M69 is the practice version of the M67 hand grenade: same size, weight and handling, with a blue body that marks it as inert. The fuze still works, so after the delay it goes off with a sharp pop, and nothing else happens: no blast, no fragments, no damage. Made for training throws, and good for making someone very nervous. It cannot be set up as a tripwire."
+      },
+      "po": {
+        "name": "Granada de mão de treino M69",
+        "shortName": "M69",
+        "description": "A M69 é a versão de treino da granada de mão M67: mesmo tamanho, peso e manuseio, com o corpo azul que a identifica como inerte. A espoleta funciona, então depois do retardo ela dispara com um estalo seco, e mais nada acontece: sem explosão, sem estilhaços, sem dano. Feita para treinar arremessos, e boa para deixar alguém bem nervoso. Não pode ser montada como armadilha de arame."
+      }
+    },
+    "fleaPriceRoubles": 2500,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "traders": {
+      "5935c25fb3acc3127c3d8cd9": {
+        "c35929f72a0fc2d6cd6616e4": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 999999,
+            "buyRestrictionMax": 10
+          },
+          "barters": [
+            {
+              "count": 15,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "addtoSecureFilters": false
+  }
+}

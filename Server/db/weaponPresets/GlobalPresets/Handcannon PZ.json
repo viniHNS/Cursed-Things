@@ -1,0 +1,22 @@
+{
+  "a4f5a3e93ce4ef406a6eebaa": {
+    "_id": "a4f5a3e93ce4ef406a6eebaa",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "Handcannon PZ default",
+    "_parent": "91519dc68f2f2231bcb0e543",
+    "_items": [
+      {
+        "_id": "91519dc68f2f2231bcb0e543",
+        "_tpl": "fd3741820feaf281c62fceef"
+      },
+      {
+        "_id": "3bda89d499768d8769b67f2a",
+        "_tpl": "57d6c384a679bfbc994a98d4",
+        "parentId": "91519dc68f2f2231bcb0e543",
+        "slotId": "mod_magazine"
+      }
+    ],
+    "_encyclopedia": "fd3741820feaf281c62fceef"
+  }
+}

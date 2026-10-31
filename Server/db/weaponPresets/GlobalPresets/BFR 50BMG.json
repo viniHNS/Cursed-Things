@@ -1,0 +1,22 @@
+{
+  "b27dae9b1921a75d64a13d1f": {
+    "_id": "b27dae9b1921a75d64a13d1f",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "BFR .50 BMG default",
+    "_parent": "532cb9b541111af5eb3b4468",
+    "_items": [
+      {
+        "_id": "532cb9b541111af5eb3b4468",
+        "_tpl": "b3dc388ec0d486a30fbbfb53"
+      },
+      {
+        "_id": "625225ebac02b8c7079efcc6",
+        "_tpl": "8761425ea541ecd505a479ad",
+        "parentId": "532cb9b541111af5eb3b4468",
+        "slotId": "mod_magazine"
+      }
+    ],
+    "_encyclopedia": "b3dc388ec0d486a30fbbfb53"
+  }
+}

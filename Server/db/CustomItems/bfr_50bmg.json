@@ -1,0 +1,438 @@
+{
+  "b3dc388ec0d486a30fbbfb53": {
+    "itemTplToClone": "633ec7c2a6918cb895019c6c",
+    "parentId": "617f1ef5e8b54b0998387733",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "weapon_bfr_50bmg_127x99_container.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "1cc4960c6c45942d3bd68bd1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "b3dc388ec0d486a30fbbfb53",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "8761425ea541ecd505a479ad"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        }
+      ],
+      "Width": 4,
+      "Height": 2,
+      "Weight": 4.4,
+      "Ergonomics": 20,
+      "RecoilForceUp": 1150,
+      "RecoilForceBack": 650,
+      "RecoilCamera": 0.117,
+      "RecolDispersion": 10,
+      "RecoilReturnSpeedHandRotation": 1.3,
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -2,
+        "y": 0.1,
+        "z": 0
+      },
+      "WeaponRecoilSettings": {
+        "Enable": true,
+        "Values": [
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Y",
+              "CurveAimingValueMultiply": 3,
+              "CurveTimeMultiply": 1,
+              "CurveValueMultiply": 3,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsRotation"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "X",
+              "CurveAimingValueMultiply": 6,
+              "CurveTimeMultiply": 1.5,
+              "CurveValueMultiply": 8,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsRotation"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Z",
+              "CurveAimingValueMultiply": 0.1,
+              "CurveTimeMultiply": 1,
+              "CurveValueMultiply": 1,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsRotation"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Z",
+              "CurveAimingValueMultiply": 0.004,
+              "CurveTimeMultiply": 0.5,
+              "CurveValueMultiply": 0.005,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsPosition"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Z",
+              "CurveAimingValueMultiply": 0.2,
+              "CurveTimeMultiply": 0.7,
+              "CurveValueMultiply": 0.6,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.0795837343,
+                    "value": 1.93448639
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.269665539,
+                    "value": -1.39276123
+                  },
+                  {
+                    "inTangent": 4.12492752,
+                    "outTangent": 4.12492752,
+                    "time": 0.541291356,
+                    "value": 0.123177826
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "CameraRotation"
+          }
+        ]
+      },
+      "Velocity": -20,
+      "CenterOfImpact": 0.1,
+      "Foldable": false,
+      "ammoCaliber": "Caliber127x99",
+      "defAmmo": "67dc255ee3028a8b120efc48",
+      "defMagType": "8761425ea541ecd505a479ad",
+      "weapFireType": [
+        "single"
+      ],
+      "weapClass": "pistol",
+      "weapUseType": "secondary"
+    },
+    "locales": {
+      "en": {
+        "name": "Magnum Research BFR .50 BMG",
+        "shortName": "BFR .50",
+        "description": "The BFR (Biggest Finest Revolver) is a stainless steel single-action revolver made in Minnesota by Magnum Research, the company behind the Desert Eagle. It is known for chambering cartridges usually reserved for rifles, such as .45-70 Government, in a five-round cylinder. This one-off build takes the long-frame design to its limit: the frame, cylinder and barrel were enlarged to take the 12.7x99mm NATO (.50 BMG) heavy machine gun cartridge, while the grip stayed close to standard size so it still fits the hand. The hammer must be cocked by hand before every shot, and the chambers are loaded and unloaded one at a time through the loading gate. Heavy, slow and brutal on the wrists."
+      },
+      "po": {
+        "name": "BFR .50 BMG",
+        "shortName": "BFR .50",
+        "description": "O BFR (Biggest Finest Revolver) é um revólver de ação simples em aço inox, fabricado em Minnesota pela Magnum Research, a mesma empresa da Desert Eagle. É conhecido por usar, num tambor de cinco tiros, cartuchos normalmente reservados a fuzis, como o .45-70 Government. Este exemplar único leva a armação longa ao limite: armação, tambor e cano foram ampliados para o cartucho 12.7x99mm NATO (.50 BMG) de metralhadora pesada, enquanto o punho ficou perto do tamanho normal para ainda caber na mão. O cão precisa ser engatilhado à mão antes de cada disparo, e as câmaras são carregadas e esvaziadas uma por vez pela portinhola. Pesado, lento e brutal para os pulsos."
+      }
+    },
+    "fleaPriceRoubles": 175600,
+    "handbookPriceRoubles": 175600,
+    "addtoTraders": false,
+    "addtoSecureFilters": false,
+    "addtoInventorySlots": [
+      "Holster"
+    ]
+  },
+  "8761425ea541ecd505a479ad": {
+    "itemTplToClone": "633ec6ee025b096d320a3b15",
+    "parentId": "610720f290b75a49ff2e5e25",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mag_bfr_50bmg_127x99_5.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "3b86c9679d03b29099ef346e",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_000",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "582a4cd04def687b5d56212e",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_001",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "879ec70192c982c55b0b5667",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_002",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "b5f407819075c717f07c2bbe",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_003",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "0b1380862509d520b784accb",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_004",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Weight": 1.1,
+      "Ergonomics": 0,
+      "Recoil": 0,
+      "Cartridges": [
+        {
+          "_id": "51aabda402d61a9576743dcf",
+          "_max_count": 5,
+          "_name": "cartridges",
+          "_parent": "8761425ea541ecd505a479ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67d41936f378a36c4706eeb9",
+                  "67dc212493ce32834b0fa446",
+                  "67dc255ee3028a8b120efc48",
+                  "67dc2648ba5b79876906a166"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "BFR .50 BMG 5-round cylinder",
+        "shortName": "BFR cyl.",
+        "description": "A five-chamber .50 BMG cylinder for the BFR .50 BMG revolver."
+      },
+      "po": {
+        "name": "Tambor de 5 tiros do BFR .50 BMG",
+        "shortName": "Tambor BFR",
+        "description": "Tambor de cinco câmaras .50 BMG para o revólver BFR .50 BMG."
+      }
+    },
+    "fleaPriceRoubles": 18000,
+    "handbookPriceRoubles": 18000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  }
+}

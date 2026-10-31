@@ -1,0 +1,70 @@
+{
+  "d8797e31362d4c6c7030190a": {
+    "itemTplToClone": "58d3db5386f77426186285a0",
+    "parentId": "543be6564bdc2df4348b4568",
+    "handbookParentId": "5b5f7a2386f774093f2ed3c4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "weapon_grenade_nuke_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 1.2,
+      "Width": 1,
+      "Height": 2,
+      "ExplDelay": 15,
+      "explDelay": 15,
+      "ExplosionEffectType": "big_explosion",
+      "FragmentsCount": 0,
+      "Strength": 300,
+      "MinExplosionDistance": 80,
+      "MaxExplosionDistance": 160,
+      "Contusion": {
+        "x": 80,
+        "y": 400,
+        "z": 25
+      },
+      "ContusionDistance": 400,
+      "Blindness": {
+        "x": 0,
+        "y": 400,
+        "z": 10
+      },
+      "CanPlantOnGround": true,
+      "PlayFuzeSound": false
+    },
+    "locales": {
+      "en": {
+        "name": "Tactical nuclear hand grenade",
+        "shortName": "NUKE",
+        "description": "A hand grenade that should not exist. The fuze takes 15 seconds, enough time to throw it far and run even farther. Anyone within 80 meters of the blast dies, cover or not; out to 160 meters the blast wave still tears apart whoever is not behind something solid, and the flash and the shockwave are felt hundreds of meters away. Do not look at it. It can be set up as a tripwire: the 15 second fuze starts when someone trips the wire."
+      },
+      "po": {
+        "name": "Granada de mão nuclear tática",
+        "shortName": "NUKE",
+        "description": "Uma granada de mão que não deveria existir. A espoleta leva 15 segundos, tempo para arremessar longe e correr mais longe ainda. Quem estiver a até 80 metros da explosão morre, com ou sem cobertura; até 160 metros a onda de choque ainda despedaça quem não estiver atrás de algo sólido, e o clarão e o tremor são sentidos a centenas de metros. Não olhe para ela. Pode ser montada como armadilha de arame: a espoleta de 15 segundos começa quando alguém tropeça no fio."
+      }
+    },
+    "fleaPriceRoubles": 300000,
+    "handbookPriceRoubles": 250000,
+    "addtoTraders": true,
+    "traders": {
+      "5935c25fb3acc3127c3d8cd9": {
+        "63e34f427f8fbe037b386d24": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 999999,
+            "buyRestrictionMax": 1
+          },
+          "barters": [
+            {
+              "count": 2000,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "addtoSecureFilters": false
+  }
+}

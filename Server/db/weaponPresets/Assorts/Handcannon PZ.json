@@ -1,0 +1,43 @@
+{
+  "JAEGER": {
+    "items": [
+      {
+        "_id": "db1426be848afe09de02fe85",
+        "_tpl": "fd3741820feaf281c62fceef",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "StackObjectsCount": 999999,
+          "UnlimitedCount": true,
+          "BuyRestrictionMax": 2,
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "31c9f93a41a909083540641c",
+        "_tpl": "57d6c384a679bfbc994a98d4",
+        "parentId": "db1426be848afe09de02fe85",
+        "slotId": "mod_magazine"
+      }
+    ],
+    "barter_scheme": {
+      "db1426be848afe09de02fe85": [
+        [
+          {
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "count": 85000
+          }
+        ]
+      ]
+    },
+    "loyal_level_items": {
+      "db1426be848afe09de02fe85": 3
+    }
+  }
+}

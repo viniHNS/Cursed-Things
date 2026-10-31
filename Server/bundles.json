@@ -1,0 +1,146 @@
+{
+    "manifest": [
+        {
+            "key": "weapon_handcannon_pz_762x51_container.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/banks/ash12.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "handcannon_pz_assets.bundle",
+                "handcannon_pz_sounds.bundle"
+            ]
+        },
+        {
+            "key": "handcannon_pz_assets.bundle",
+            "dependencyKeys": [
+                "handcannon_pz_textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "handcannon_pz_textures.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "mag_handcannon_pz_762x51_5.bundle",
+            "dependencyKeys": [
+                "handcannon_pz_assets.bundle"
+            ]
+        },
+        {
+            "key": "handcannon_pz_sounds.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "weapon_bfr_50bmg_127x99_container.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "bfr_50bmg_assets.bundle",
+                "bfr_50bmg_fire.bundle",
+                "bfr_50bmg_sounds.bundle"
+            ]
+        },
+        {
+            "key": "bfr_50bmg_assets.bundle",
+            "dependencyKeys": [
+                "bfr_50bmg_textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "bfr_50bmg_textures.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "mag_bfr_50bmg_127x99_5.bundle",
+            "dependencyKeys": [
+                "bfr_50bmg_assets.bundle"
+            ]
+        },
+        {
+            "key": "bfr_50bmg_sounds.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "bfr_50bmg_fire.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "weapon_grenade_m69_dummy_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/rgd.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/m67/client_assets.bundle",
+                "assets/content/weapons/m67/textures/client_assets.bundle",
+                "assets/content/weapons/rgd5/client_assets.bundle",
+                "assets/content/weapons/rgd5/materials/rgd_5_textures.bundle",
+                "assets/content/weapons/rgd5/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "cubemaps",
+                "shaders",
+                "m69_dummy_assets.bundle",
+                "m69_dummy_textures.bundle"
+            ]
+        },
+        {
+            "key": "m69_dummy_assets.bundle",
+            "dependencyKeys": [
+                "m69_dummy_textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "m69_dummy_textures.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "weapon_grenade_nuke_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/rgd.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/m18/client_assets.bundle",
+                "assets/content/weapons/m18/textures/client_assets.bundle",
+                "assets/content/weapons/rgd5/client_assets.bundle",
+                "assets/content/weapons/rgd5/materials/rgd_5_textures.bundle",
+                "assets/content/weapons/rgd5/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "cubemaps",
+                "defaultmaterial",
+                "shaders",
+                "nuke_grenade_textures.bundle"
+            ]
+        },
+        {
+            "key": "nuke_grenade_textures.bundle",
+            "dependencyKeys": []
+        }
+    ]
+}
