@@ -7,7 +7,7 @@ using viniHNS.CursedThings.Patches;
 
 namespace viniHNS.CursedThings
 {
-    [BepInPlugin("viniHNS.CursedThings", "CursedThings", "1.0.0")]
+    [BepInPlugin("viniHNS.CursedThings", "CursedThings", "0.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;

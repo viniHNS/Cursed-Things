@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_bfr_50bmg_127x99_container.bundle",
+        "path": "bfr_50bmg/weapon_bfr_50bmg_127x99_container.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -266,6 +266,11 @@
         "name": "BFR .50 BMG",
         "shortName": "BFR .50",
         "description": "O BFR (Biggest Finest Revolver) é um revólver de ação simples em aço inox, fabricado em Minnesota pela Magnum Research, a mesma empresa da Desert Eagle. É conhecido por usar, num tambor de cinco tiros, cartuchos normalmente reservados a fuzis, como o .45-70 Government. Este exemplar único leva a armação longa ao limite: armação, tambor e cano foram ampliados para o cartucho 12.7x99mm NATO (.50 BMG) de metralhadora pesada, enquanto o punho ficou perto do tamanho normal para ainda caber na mão. O cão precisa ser engatilhado à mão antes de cada disparo, e as câmaras são carregadas e esvaziadas uma por vez pela portinhola. Pesado, lento e brutal para os pulsos."
+      },
+      "ru": {
+        "name": "Револьвер Magnum Research BFR .50 BMG",
+        "shortName": "BFR .50",
+        "description": "BFR (Biggest Finest Revolver) — револьвер одинарного действия из нержавеющей стали, который выпускает в Миннесоте компания Magnum Research, создатель Desert Eagle. Он известен тем, что стреляет патронами, обычно предназначенными для винтовок, например .45-70 Government, из пятизарядного барабана. Этот единичный экземпляр доводит длинную рамку до предела: рамка, барабан и ствол увеличены под патрон крупнокалиберного пулемета 12.7x99 НАТО (.50 BMG), а рукоять осталась почти стандартной, чтобы ее все еще можно было удержать. Курок нужно взводить вручную перед каждым выстрелом, а каморы заряжаются и разряжаются по одной через дверцу заряжания. Тяжелый, медленный и беспощадный к запястьям."
       }
     },
     "fleaPriceRoubles": 175600,
@@ -283,7 +288,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "mag_bfr_50bmg_127x99_5.bundle",
+        "path": "bfr_50bmg/mag_bfr_50bmg_127x99_5.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -428,6 +433,11 @@
         "name": "Tambor de 5 tiros do BFR .50 BMG",
         "shortName": "Tambor BFR",
         "description": "Tambor de cinco câmaras .50 BMG para o revólver BFR .50 BMG."
+      },
+      "ru": {
+        "name": "Барабан для BFR .50 BMG",
+        "shortName": "BFR",
+        "description": "Пятизарядный барабан под .50 BMG для револьвера BFR .50 BMG."
       }
     },
     "fleaPriceRoubles": 18000,

@@ -1,0 +1,67 @@
+{
+  "6766bdb3e654a22d0549ec85": {
+    "itemTplToClone": "5c6165902e22160010261b28",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "oil_filter_suppressor/silencer_oil_filter_9x19.bundle",
+        "rcid": ""
+      },
+      "Weight": 1,
+      "Ergonomics": -30,
+      "Recoil": -1,
+      "Loudness": -20,
+      "Velocity": 0.6,
+      "DurabilityBurnModificator": 2,
+      "HeatFactor": 1.2,
+      "CoolFactor": 0.9,
+      "muzzleModType": "pms",
+      "RarityPvE": "Superrare",
+      "LootExperience": 30
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle",
+      "mod_muzzle_001"
+    ],
+    "locales": {
+      "en": {
+        "name": "Oil Filter Suppressor",
+        "shortName": "Oil Filter",
+        "description": "The Oil Filter Suppressor is a popular choice for home-made suppressors. The oil filter is modified to accept a firearm barrel and baffles. The suppressor is effective at reducing the sound of a firearm, but is not as effective as a professionally manufactured suppressor."
+      },
+      "po": {
+        "name": "Supressor de filtro de óleo",
+        "shortName": "Filtro de óleo",
+        "description": "O supressor de filtro de óleo é uma escolha popular entre os supressores caseiros. O filtro de óleo é adaptado para receber o cano da arma e os defletores. Ele reduz bem o som do disparo, mas não tanto quanto um supressor de fábrica."
+      },
+      "ru": {
+        "name": "Глушитель из масляного фильтра",
+        "shortName": "Фильтр",
+        "description": "Глушитель из масляного фильтра — популярный вариант самодельного глушителя. Масляный фильтр переделан так, чтобы накручиваться на ствол оружия, а внутри установлены перегородки. Он хорошо снижает звук выстрела, но уступает глушителям заводского производства."
+      }
+    },
+    "fleaPriceRoubles": 15231,
+    "handbookPriceRoubles": 15231,
+    "addtoTraders": true,
+    "traders": {
+      "5a7c2eca46aef81a7ca2145d": {
+        "6766bed80dac2af0b29025b5": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 103
+          },
+          "barters": [
+            {
+              "count": 10412,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoSecureFilters": false
+  }
+}

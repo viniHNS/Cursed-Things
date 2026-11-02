@@ -5,7 +5,7 @@
     "handbookParentId": "5b5f7a2386f774093f2ed3c4",
     "overrideProperties": {
       "Prefab": {
-        "path": "weapon_grenade_nuke_container.bundle",
+        "path": "nuke_grenade/weapon_grenade_nuke_container.bundle",
         "rcid": ""
       },
       "Weight": 1.2,
@@ -42,6 +42,11 @@
         "name": "Granada de mão nuclear tática",
         "shortName": "NUKE",
         "description": "Uma granada de mão que não deveria existir. A espoleta leva 15 segundos, tempo para arremessar longe e correr mais longe ainda. Quem estiver a até 80 metros da explosão morre, com ou sem cobertura; até 160 metros a onda de choque ainda despedaça quem não estiver atrás de algo sólido, e o clarão e o tremor são sentidos a centenas de metros. Não olhe para ela. Pode ser montada como armadilha de arame: a espoleta de 15 segundos começa quando alguém tropeça no fio."
+      },
+      "ru": {
+        "name": "Тактическая ядерная ручная граната",
+        "shortName": "ЯДЕРКА",
+        "description": "Ручная граната, которой не должно существовать. Запал горит 15 секунд — достаточно, чтобы бросить ее далеко и убежать еще дальше. Все в радиусе 80 метров от взрыва погибают, есть укрытие или нет; до 160 метров ударная волна все еще разрывает тех, кто не спрятался за чем-то прочным, а вспышку и ударную волну чувствуют за сотни метров. Не смотрите на нее. Ее можно установить как растяжку: 15-секундный запал начинает гореть, когда кто-то задевает проволоку."
       }
     },
     "fleaPriceRoubles": 300000,

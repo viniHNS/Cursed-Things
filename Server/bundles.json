@@ -1,7 +1,7 @@
 {
     "manifest": [
         {
-            "key": "weapon_handcannon_pz_762x51_container.bundle",
+            "key": "handcannon_pz/weapon_handcannon_pz_762x51_container.bundle",
             "dependencyKeys": [
                 "assets/content/audio/banks/ash12.bundle",
                 "assets/content/audio/blendoptions/assets.bundle",
@@ -11,36 +11,36 @@
                 "assets/systems/effects/heathaze/defaultheathaze.bundle",
                 "assets/systems/effects/muzzleflash/muzzleflash.bundle",
                 "assets/systems/effects/smoke.bundle",
-                "handcannon_pz_assets.bundle",
-                "handcannon_pz_sounds.bundle"
+                "handcannon_pz/handcannon_pz_assets.bundle",
+                "handcannon_pz/handcannon_pz_sounds.bundle"
             ]
         },
         {
-            "key": "handcannon_pz_assets.bundle",
+            "key": "handcannon_pz/handcannon_pz_assets.bundle",
             "dependencyKeys": [
-                "handcannon_pz_textures.bundle",
+                "handcannon_pz/handcannon_pz_textures.bundle",
                 "cubemaps",
                 "shaders"
             ]
         },
         {
-            "key": "handcannon_pz_textures.bundle",
+            "key": "handcannon_pz/handcannon_pz_textures.bundle",
             "dependencyKeys": []
         },
         {
-            "key": "mag_handcannon_pz_762x51_5.bundle",
+            "key": "handcannon_pz/mag_handcannon_pz_762x51_5.bundle",
             "dependencyKeys": [
-                "handcannon_pz_assets.bundle"
+                "handcannon_pz/handcannon_pz_assets.bundle"
             ]
         },
         {
-            "key": "handcannon_pz_sounds.bundle",
+            "key": "handcannon_pz/handcannon_pz_sounds.bundle",
             "dependencyKeys": [
                 "assets/content/audio/blendoptions/assets.bundle"
             ]
         },
         {
-            "key": "weapon_bfr_50bmg_127x99_container.bundle",
+            "key": "bfr_50bmg/weapon_bfr_50bmg_127x99_container.bundle",
             "dependencyKeys": [
                 "assets/content/audio/blendoptions/assets.bundle",
                 "assets/content/audio/weapons/generic",
@@ -49,43 +49,43 @@
                 "assets/systems/effects/heathaze/defaultheathaze.bundle",
                 "assets/systems/effects/muzzleflash/muzzleflash.bundle",
                 "assets/systems/effects/smoke.bundle",
-                "bfr_50bmg_assets.bundle",
-                "bfr_50bmg_fire.bundle",
-                "bfr_50bmg_sounds.bundle"
+                "bfr_50bmg/bfr_50bmg_assets.bundle",
+                "bfr_50bmg/bfr_50bmg_fire.bundle",
+                "bfr_50bmg/bfr_50bmg_sounds.bundle"
             ]
         },
         {
-            "key": "bfr_50bmg_assets.bundle",
+            "key": "bfr_50bmg/bfr_50bmg_assets.bundle",
             "dependencyKeys": [
-                "bfr_50bmg_textures.bundle",
+                "bfr_50bmg/bfr_50bmg_textures.bundle",
                 "cubemaps",
                 "shaders"
             ]
         },
         {
-            "key": "bfr_50bmg_textures.bundle",
+            "key": "bfr_50bmg/bfr_50bmg_textures.bundle",
             "dependencyKeys": []
         },
         {
-            "key": "mag_bfr_50bmg_127x99_5.bundle",
+            "key": "bfr_50bmg/mag_bfr_50bmg_127x99_5.bundle",
             "dependencyKeys": [
-                "bfr_50bmg_assets.bundle"
+                "bfr_50bmg/bfr_50bmg_assets.bundle"
             ]
         },
         {
-            "key": "bfr_50bmg_sounds.bundle",
-            "dependencyKeys": [
-                "assets/content/audio/blendoptions/assets.bundle"
-            ]
-        },
-        {
-            "key": "bfr_50bmg_fire.bundle",
+            "key": "bfr_50bmg/bfr_50bmg_sounds.bundle",
             "dependencyKeys": [
                 "assets/content/audio/blendoptions/assets.bundle"
             ]
         },
         {
-            "key": "weapon_grenade_m69_dummy_container.bundle",
+            "key": "bfr_50bmg/bfr_50bmg_fire.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "m69_dummy/weapon_grenade_m69_dummy_container.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/audio/weapons/generic",
@@ -101,24 +101,24 @@
                 "assets/content/weapons/weapon_root_anim_fix.bundle",
                 "cubemaps",
                 "shaders",
-                "m69_dummy_assets.bundle",
-                "m69_dummy_textures.bundle"
+                "m69_dummy/m69_dummy_assets.bundle",
+                "m69_dummy/m69_dummy_textures.bundle"
             ]
         },
         {
-            "key": "m69_dummy_assets.bundle",
+            "key": "m69_dummy/m69_dummy_assets.bundle",
             "dependencyKeys": [
-                "m69_dummy_textures.bundle",
+                "m69_dummy/m69_dummy_textures.bundle",
                 "cubemaps",
                 "shaders"
             ]
         },
         {
-            "key": "m69_dummy_textures.bundle",
+            "key": "m69_dummy/m69_dummy_textures.bundle",
             "dependencyKeys": []
         },
         {
-            "key": "weapon_grenade_nuke_container.bundle",
+            "key": "nuke_grenade/weapon_grenade_nuke_container.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/audio/weapons/generic",
@@ -135,12 +135,88 @@
                 "cubemaps",
                 "defaultmaterial",
                 "shaders",
-                "nuke_grenade_textures.bundle"
+                "nuke_grenade/nuke_grenade_textures.bundle"
             ]
         },
         {
-            "key": "nuke_grenade_textures.bundle",
+            "key": "nuke_grenade/nuke_grenade_textures.bundle",
             "dependencyKeys": []
+        },
+        {
+            "key": "absolut_vodka/item_absolut_vodka_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/usable_items/item_vodka_02_drink",
+                "assets/content/prefabs/muzzleflash_base.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders",
+                "absolut_vodka/absolut_vodka_assets.bundle",
+                "absolut_vodka/absolut_vodka_textures.bundle"
+            ]
+        },
+        {
+            "key": "absolut_vodka/absolut_vodka_assets.bundle",
+            "dependencyKeys": [
+                "absolut_vodka/absolut_vodka_textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "absolut_vodka/absolut_vodka_textures.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "absolut_vodka/item_food_absolut_vodka.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders",
+                "absolut_vodka/absolut_vodka_textures.bundle"
+            ]
+        },
+        {
+            "key": "pkm12/pkm12_assets.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "pkm12/mag_pkm_zid_pk_std_762x54r_100.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/pkm/client_assets.bundle",
+                "assets/content/weapons/pkm/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders",
+                "pkm12/pkm12_assets.bundle"
+            ]
+        },
+        {
+            "key": "pkm12/barrel_pkm_zid_std_658mm_762x54r.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/pkm/client_assets.bundle",
+                "assets/content/weapons/pkm/textures/client_assets.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders",
+                "pkm12/pkm12_assets.bundle"
+            ]
+        },
+        {
+            "key": "oil_filter_suppressor/silencer_oil_filter_9x19.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
         }
     ]
 }

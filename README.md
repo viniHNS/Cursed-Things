@@ -2,9 +2,9 @@
 
 # CursedThings
 
-Things that should not exist, but do: two oversized single action revolvers, a practice grenade that only pops and a hand-thrown nuke, for SPT 4.1.6.
+Things that should not exist, but do: two oversized single action revolvers, a belt-fed 12 gauge PKM, an oil filter suppressor, a practice grenade, a hand-thrown nuke and a liter of Absolut, for SPT 4.1.6.
 
-![Version](https://img.shields.io/badge/version-1.0.0-orange?style=flat)
+![Version](https://img.shields.io/badge/version-0.1.0-orange?style=flat)
 ![SPT](https://img.shields.io/badge/SPT-4.1.6-blue?style=flat)
 ![WTT-CommonLib](https://img.shields.io/badge/WTT--CommonLib-3.0.6-purple?style=flat)
 ![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat&logo=dotnet)
@@ -24,10 +24,22 @@ Things that should not exist, but do: two oversized single action revolvers, a p
 - **Handcannon PZ**: a heavy single action revolver in 7.62x51 mm NATO, with a 5-round cylinder.
 - Both are cocked by hand before every shot and loaded through the loading gate: the cases come out one at a time and the chambers are loaded one by one.
 
+**Belt-fed shotgun**
+
+- **PKM-12**: the game's PKM rebuilt to fire 12 gauge shells from a belt, full auto at 450 RPM with heavy recoil. It has a heavy 658 mm smoothbore barrel that takes Saiga-12 muzzle devices, and a slightly larger box with a 50-shell belt of widened links.
+
 **Grenades**
 
 - **M69 practice hand grenade**: the M67's size, weight and handling. After the fuze delay it only pops: no blast, no fragments, no damage.
 - **Tactical nuclear hand grenade**: a 15-second fuze, a lethal radius of 80 m, a fireball and a mushroom cloud. It can be planted as a tripwire.
+
+**Weapon mods**
+
+- **Oil Filter Suppressor**: a home-made suppressor made from a car oil filter. It screws onto every 9x19 and 9x18 muzzle that takes the game's SIG SRD9. It is big and heavy, and it blocks pistol iron sights.
+
+**Drinks**
+
+- **Bottle of Absolut vodka**: a one-liter bottle with the label printed on the glass. It uses the game's vodka animations, with the hands refitted to the wider bottle. Stronger than a Tarkovskaya: longer pain relief, more dehydration and a harder hangover.
 
 **Client**
 
@@ -38,8 +50,8 @@ Things that should not exist, but do: two oversized single action revolvers, a p
 
 **New content**
 
-- 2 [weapons](#weapons) and 2 [grenades](#grenades), sold by Peacekeeper and Jaeger.
-- Names and descriptions in English and Portuguese.
+- 3 [weapons](#weapons), 2 [weapon mods](#weapon-mods), 2 [grenades](#grenades) and 1 [drink](#drinks), sold by Peacekeeper, Jaeger, Prapor, Mechanic and Skier.
+- Names and descriptions in English, Portuguese and Russian.
 
 ---
 
@@ -56,7 +68,7 @@ Install [WTT-CommonLib](https://github.com/GrooveypenguinX/WTT-CommonLib) **3.0.
     ├── CursedThings.dll
     ├── bundles.json
     ├── bundles/            models of the new items
-    └── db/                 items, presets, trader offers and locales
+    └── db/                 items, buffs, presets, trader offers and locales
 ```
 
 Both parts are required: the server adds the items and the client handles the revolver reload, the BFR arm strain and the grenade effects.
@@ -73,8 +85,16 @@ Both parts are required: the server adds the items and the client handles the re
 |---|---|---|
 | Magnum Research BFR .50 BMG | 12.7x99 mm (.50 BMG) | Peacekeeper LL4 ($1,600; limit 2) |
 | Handcannon PZ | 7.62x51 mm NATO | Jaeger LL3 (85,000 ₽; limit 2) |
+| PKM-12 belt-fed shotgun | 12 gauge (12x70) | Prapor LL4 (95,000 ₽; limit 2) |
 
-Both are sold with their 5-round cylinder.
+The revolvers are sold with their 5-round cylinder. The PKM-12 is sold with its 658 mm barrel and a 50-round box, and takes the same 12 gauge shells as the Saiga-12.
+
+### Weapon Mods
+
+| Mod | Fits | Sold by |
+|---|---|---|
+| Oil Filter Suppressor | Every 9x19/9x18 muzzle that takes the SIG SRD9: Glock 17, M9A3, P226R and PL-15 threaded barrels, PM (t), MP5 (Navy 3-lug adapter), UZI and UZI PRO Pistol threaded barrels, MPX, PP-19-01 Vityaz, Saiga-9, STM-9 (also the STM-9 Full Auto from Make STM Great Again) and Vector 9x19 | Mechanic LL1 (10,412 ₽; 103 in stock) |
+| PKM-12 12ga 50-round box | PKM-12 only | Prapor LL4 (12,000 ₽; limit 5) |
 
 ### Grenades
 
@@ -86,6 +106,14 @@ Both are sold with their 5-round cylinder.
 The M69 can't be planted as a tripwire.
 
 The nuke's fuze burns for 15 seconds. Anyone within 80 m dies, cover or not. Out to 160 m the damage falls off with distance, and solid cover cuts it to 30%. The flash (if you look at it), contusion, deafening and camera shake reach 400 m. Planted as a tripwire, the fuze starts when someone trips the wire. All of these values can be changed in the [F12 menu](#configuration).
+
+### Drinks
+
+| Drink | Effects | Sold by |
+|---|---|---|
+| Bottle of Absolut vodka | 6 s to drink; hydration −80; pain relief for 400 s; for 400 s, Stress Resistance +10, Memory −20 and Health −10; hand tremor for 240 s, starting 405 s after drinking | Skier LL2 (38,000 ₽; limit 3) |
+
+For comparison, the Tarkovskaya takes 5 s, removes 50 hydration and relieves pain for 250 s, with half these skill changes. The Absolut weighs 1.7 kg and takes 1×2 slots.
 
 ---
 
@@ -138,10 +166,11 @@ CursedThings/
 │   ├── bundles.json                    bundle list for the new items
 │   ├── bundles/                        models of the new items
 │   └── db/
-│       ├── CustomItems/                revolvers, cylinders and grenades (with the grenade offers)
-│       ├── CustomLocales/              names of the weapon builds (EN, PO)
+│       ├── CustomBuffs/                Absolut vodka buffs
+│       ├── CustomItems/                revolvers, cylinders, PKM-12 (with barrel and box), suppressor, grenades and the Absolut vodka (with their offers)
+│       ├── CustomLocales/              names of the weapon builds (EN, PO, RU)
 │       └── weaponPresets/
-│           ├── Assorts/                revolvers sold by Peacekeeper and Jaeger
+│           ├── Assorts/                revolvers sold by Peacekeeper and Jaeger, PKM-12 sold by Prapor
 │           └── GlobalPresets/          default weapon builds
 └── Client/                             BepInEx plugin (netstandard2.1)
     ├── Plugin.cs                       F12 settings
@@ -166,8 +195,9 @@ CursedThings/
 - Revolver handling sounds (hammer, loading gate, ejector rod): from the Peacemaker mod.
 - Magnum Research BFR .50 BMG model: from the BFR50BMG H3VR mod by **Volks**.
 - Handcannon PZ model: from the Handcannon PZ H3VR mod by **ShermanJumbo** (model from Resident Evil Village).
-- Tactical nuclear hand grenade model: adapted from [Athom grenade](https://sketchfab.com/3d-models/athom-grenade-c6e43eb37da349e2a5d91ec90c52e167) by [BadVibes4EVER](https://sketchfab.com/BadVibes4EVER), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The body and spoon were rescaled and fitted to the game's M18 grenade (the pin and ring are the M18's), and the textures were converted to the game's materials. These assets retain their CC BY 4.0 attribution; the mod's MIT license covers the code.
+- Tactical nuclear hand grenade model: adapted from [Athom grenade](https://sketchfab.com/3d-models/athom-grenade-c6e43eb37da349e2a5d91ec90c52e167) by [BadVibes4EVER](https://sketchfab.com/BadVibes4EVER), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). These assets retain their CC BY 4.0 attribution; the mod's MIT license covers the code.
 - M69 practice hand grenade model: [M69 Hand Grenade and M228 Fuze](https://sketchfab.com/3d-models/m69-hand-grenade-and-m228-fuze-8487b035f785401ca4e495a84e36b952) by [MACINTOSH Plus](https://sketchfab.com/macintoshplus941) (Sketchfab Standard license).
+- Bottle of Absolut vodka model: [Absolut Vodka 1L Bottle](https://sketchfab.com/3d-models/absolut-vodka-1l-bottle-e11913a2fcdb41d5badfa841d6448c90) by [Saandy](https://sketchfab.com/Saandy), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). These assets retain their CC BY 4.0 attribution; the mod's MIT license covers the code.
 
 ---
 
@@ -185,4 +215,4 @@ CursedThings/
 
 ## License
 
-The code of this mod is licensed under the [MIT License](LICENSE). Third-party assets keep their own licenses and are not covered by the MIT License (see [Credits](#credits)): the Peacemaker animations are CC BY 3.0 and the nuclear grenade model is CC BY 4.0.
+The code of this mod is licensed under the [MIT License](LICENSE). Third-party assets keep their own licenses and are not covered by the MIT License (see [Credits](#credits)): the Peacemaker animations are CC BY 3.0, and the nuclear grenade and Absolut vodka models are CC BY 4.0.

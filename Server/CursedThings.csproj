@@ -8,7 +8,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyName>CursedThings</AssemblyName>
     <RootNamespace>CursedThings</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>0.1.0</Version>
     <Authors>viniHNS</Authors>
     <Company>viniHNS</Company>
     <Product>CursedThings</Product>

@@ -13,7 +13,7 @@ public record ModMetadata : IModMetadata
     public string Name { get; init; } = "CursedThings";
     public string Author { get; init; } = "viniHNS";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public SemanticVersioning.Version Version { get; init; } = new("0.1.0");
     public Range SptVersion { get; init; } = new("~4.1.6");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
@@ -39,6 +39,8 @@ public class CursedThingsMod(
     {
         var assembly = Assembly.GetExecutingAssembly();
 
+        // Buffs first: the Absolut vodka's StimulatorBuffs points at Buffs_drink_absolut.
+        await wttCommon.CustomBuffService.CreateCustomBuffs(assembly);
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, "db/weaponPresets/GlobalPresets");
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);

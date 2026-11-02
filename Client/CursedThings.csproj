@@ -6,7 +6,7 @@
     <RootNamespace>viniHNS.CursedThings</RootNamespace>
     <Nullable>disable</Nullable>
     <Authors>viniHNS</Authors>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Configurations>Debug;Release</Configurations>
     <Version>$(AssemblyVersion)</Version>

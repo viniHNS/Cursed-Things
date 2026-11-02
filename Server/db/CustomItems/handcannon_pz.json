@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_handcannon_pz_762x51_container.bundle",
+        "path": "handcannon_pz/weapon_handcannon_pz_762x51_container.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -58,6 +58,11 @@
         "name": "Handcannon PZ",
         "shortName": "Handcannon",
         "description": "O Handcannon PZ é um revólver pesado de ação simples que dispara o 7.62x51 NATO, um cartucho de fuzil de potência total. Tem armação de aço inox com punho de madeira, tambor de cinco tiros e cano longo e pesado. O cão precisa ser engatilhado à mão antes de cada disparo, e o tambor é carregado e esvaziado uma câmara por vez pela portinhola do lado direito, com a vareta empurrando cada estojo vazio. Parte dos gases escapa pela folga entre o tambor e o cano, então a bala sai mais devagar que de um fuzil e o estampido é violento."
+      },
+      "ru": {
+        "name": "Револьвер Handcannon PZ 7.62x51",
+        "shortName": "Handcannon",
+        "description": "Handcannon PZ — тяжелый револьвер одинарного действия под 7.62x51 НАТО, полноценный винтовочный патрон. У него рамка из нержавеющей стали с деревянной рукоятью, пятизарядный барабан и длинный тяжелый ствол. Курок нужно взводить вручную перед каждым выстрелом, а барабан заряжается и разряжается по одной каморе через дверцу заряжания справа; шомпол-экстрактор выталкивает каждую стреляную гильзу. Часть пороховых газов уходит через зазор между барабаном и стволом, поэтому пуля вылетает медленнее, чем из винтовки, а выстрел оглушает."
       }
     },
     "fleaPriceRoubles": 77000,
@@ -75,7 +80,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "mag_handcannon_pz_762x51_5.bundle",
+        "path": "handcannon_pz/mag_handcannon_pz_762x51_5.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -244,6 +249,11 @@
         "name": "Tambor de 5 tiros 7.62x51 do Handcannon PZ",
         "shortName": "Tambor HC",
         "description": "Tambor de cinco câmaras 7.62x51 para o revólver Handcannon PZ."
+      },
+      "ru": {
+        "name": "Барабан для Handcannon PZ 7.62x51",
+        "shortName": "Handcannon",
+        "description": "Пятизарядный барабан под 7.62x51 для револьвера Handcannon PZ."
       }
     },
     "fleaPriceRoubles": 8000,

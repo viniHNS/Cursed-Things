@@ -5,7 +5,7 @@
     "handbookParentId": "5b5f7a2386f774093f2ed3c4",
     "overrideProperties": {
       "Prefab": {
-        "path": "weapon_grenade_m69_dummy_container.bundle",
+        "path": "m69_dummy/weapon_grenade_m69_dummy_container.bundle",
         "rcid": ""
       },
       "ExplosionEffectType": "",
@@ -41,6 +41,11 @@
         "name": "Granada de mão de treino M69",
         "shortName": "M69",
         "description": "A M69 é a versão de treino da granada de mão M67: mesmo tamanho, peso e manuseio, com o corpo azul que a identifica como inerte. A espoleta funciona, então depois do retardo ela dispara com um estalo seco, e mais nada acontece: sem explosão, sem estilhaços, sem dano. Feita para treinar arremessos, e boa para deixar alguém bem nervoso. Não pode ser montada como armadilha de arame."
+      },
+      "ru": {
+        "name": "Учебная ручная граната M69",
+        "shortName": "M69",
+        "description": "M69 — учебный вариант ручной гранаты M67: тот же размер, вес и обращение, а синий корпус показывает, что она инертная. Запал при этом работает, поэтому после замедления раздается резкий хлопок — и больше ничего: ни взрыва, ни осколков, ни урона. Создана для тренировочных бросков и отлично подходит, чтобы как следует кого-нибудь напугать. Ее нельзя установить как растяжку."
       }
     },
     "fleaPriceRoubles": 2500,

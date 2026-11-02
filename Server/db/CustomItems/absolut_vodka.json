@@ -1,0 +1,76 @@
+{
+  "3b956603fbbab73ab62bd2db": {
+    "itemTplToClone": "5d40407c86f774318526545a",
+    "parentId": "5448e8d64bdc2dce718b4568",
+    "handbookParentId": "5b47574386f77428ca22b335",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "absolut_vodka/item_food_absolut_vodka.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "absolut_vodka/item_absolut_vodka_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 1.7,
+      "Width": 1,
+      "Height": 2,
+      "foodUseTime": 6,
+      "effects_health": {
+        "Hydration": {
+          "value": -80
+        }
+      },
+      "effects_damage": {
+        "Pain": {
+          "delay": 0,
+          "duration": 400
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
+        }
+      },
+      "StimulatorBuffs": "Buffs_drink_absolut"
+    },
+    "locales": {
+      "en": {
+        "name": "Bottle of Absolut vodka",
+        "shortName": "Absolut",
+        "description": "A one-liter bottle of Absolut, the Swedish vodka from Åhus, in the clear glass bottle with the label printed straight on the glass. Twice the size of a Tarkovskaya and twice the trouble: it numbs pain for longer, but dries you out more and the hangover hits harder."
+      },
+      "po": {
+        "name": "Garrafa de vodka Absolut",
+        "shortName": "Absolut",
+        "description": "Uma garrafa de um litro de Absolut, a vodka sueca de Åhus, no vidro transparente com o rótulo impresso direto no vidro. O dobro de uma Tarkovskaya e o dobro de encrenca: alivia a dor por mais tempo, mas desidrata mais e a ressaca bate mais forte."
+      },
+      "ru": {
+        "name": "Бутылка водки Absolut",
+        "shortName": "Absolut",
+        "description": "Литровая бутылка шведской водки Absolut из прозрачного стекла, с этикеткой, напечатанной прямо на стекле. Вдвое больше \"Тарковской\" и вдвое больше проблем: дольше глушит боль, но сильнее обезвоживает, а похмелье бьет тяжелее."
+      }
+    },
+    "fleaPriceRoubles": 45000,
+    "handbookPriceRoubles": 40000,
+    "addtoTraders": true,
+    "traders": {
+      "58330581ace78e27b8b10cee": {
+        "a625a4efdf2f306fef77a1c3": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 999999,
+            "buyRestrictionMax": 3
+          },
+          "barters": [
+            {
+              "count": 38000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoSecureFilters": false
+  }
+}

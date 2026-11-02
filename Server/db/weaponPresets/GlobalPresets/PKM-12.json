@@ -1,0 +1,52 @@
+{
+  "42aa1616d25e0cdef6692996": {
+    "_id": "42aa1616d25e0cdef6692996",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "PKM-12 default",
+    "_parent": "fa8caa801baab351514cecd2",
+    "_items": [
+      {
+        "_id": "fa8caa801baab351514cecd2",
+        "_tpl": "15e668ecb09109539eee5e6b"
+      },
+      {
+        "_id": "f8b261e0596e15b9083767c2",
+        "_tpl": "646371779f5f0ea59a04c204",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_pistolgrip"
+      },
+      {
+        "_id": "ebcd675c19748c03ac852c1d",
+        "_tpl": "f1356d48ee823965a7ae5be0",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "59c6e2f8f46090b0e6f1a714",
+        "_tpl": "0392e531b243fb263c40ffc6",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "4cf66cc5a4d79d7591e9935d",
+        "_tpl": "646371a9f2404ab67905c8e6",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "3a4aeeb7ab92bb8ddc629bb7",
+        "_tpl": "6464d870bb2c580352070cc4",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_bipod"
+      },
+      {
+        "_id": "d708e127011525eec973dbd5",
+        "_tpl": "6492fb8253acae0af00a29b6",
+        "parentId": "fa8caa801baab351514cecd2",
+        "slotId": "mod_sight_rear"
+      }
+    ],
+    "_encyclopedia": "15e668ecb09109539eee5e6b"
+  }
+}

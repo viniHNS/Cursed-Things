@@ -1,0 +1,40 @@
+{
+  "Buffs_drink_absolut": [
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 400,
+      "SkillName": "StressResistance",
+      "Value": 10
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 400,
+      "SkillName": "Memory",
+      "Value": -20
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 400,
+      "SkillName": "Health",
+      "Value": -10
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "HandsTremor",
+      "Chance": 1,
+      "Delay": 405,
+      "Duration": 240,
+      "SkillName": "",
+      "Value": 0
+    }
+  ]
+}

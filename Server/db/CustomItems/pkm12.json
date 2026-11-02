@@ -1,0 +1,379 @@
+{
+  "15e668ecb09109539eee5e6b": {
+    "itemTplToClone": "64637076203536ad5600c990",
+    "parentId": "5447bed64bdc2d97278b4568",
+    "handbookParentId": "5b5f79a486f77409407a7f94",
+    "overrideProperties": {
+      "Slots": [
+        {
+          "_id": "0fd834e075116f2cdf4e86cd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistolgrip",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "646371779f5f0ea59a04c204",
+                  "64cbad529f7cf7f75c077fd5",
+                  "5f6341043ada5942720e2dc5",
+                  "6087e663132d4d12c81fd96b",
+                  "623c3be0484b5003161840dc",
+                  "5649ad3f4bdc2df8348b4585",
+                  "5649ade84bdc2d1b2b8b4587",
+                  "59e62cc886f77440d40b52a1",
+                  "5a0071d486f77404e23a12b2",
+                  "57e3dba62459770f0c32322b",
+                  "5cf54404d7f00c108840b2ef",
+                  "5e2192a498a36665e8337386",
+                  "5b30ac585acfc433000eb79c",
+                  "63f4da90f31d4a33b87bd054",
+                  "5cf50850d7f00c056e24104c",
+                  "59e6318286f77444dd62c4cc",
+                  "5cf508bfd7f00c056e24104e",
+                  "628a664bccaab13006640e47",
+                  "628c9ab845c59e5b80768a81",
+                  "5947f92f86f77427344a76b1",
+                  "5947fa2486f77425b47c1a9b",
+                  "5c6bf4aa2e2216001219b0ae",
+                  "5649ae4a4bdc2d1b2b8b4588",
+                  "648ae3e356c6310a830fc291",
+                  "651580dc71a4f10aec4b6056"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "566c89e0983bc7248db0a357",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "0392e531b243fb263c40ffc6"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "cdfcb3681312bba820ce5a55",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "646371a9f2404ab67905c8e6",
+                  "6492d7847363b8a52206bc52",
+                  "6492e3a97df7d749100e29ee"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "74324ff69b68fae4dc709bf8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "f1356d48ee823965a7ae5be0"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "1cf61dcdaf36d9cedb8606e1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_bipod",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6464d870bb2c580352070cc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "3889fa796c20c5bc1898468c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6491c6f6ef312a876705191b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "db995ee77a06e25efddff133",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6492fb8253acae0af00a29b6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "6c0f1d6191b593bb8579d0d9",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "15e668ecb09109539eee5e6b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "560d5e524bdc2d25448b4571",
+                  "5d6e6772a4b936088465b17c",
+                  "5d6e67fba4b9361bc73bc779",
+                  "5d6e6806a4b936088465b17e",
+                  "5d6e68dea4b9361bcc29e659",
+                  "5d6e6911a4b9361bd5780d52",
+                  "5c0d591486f7744c505b416f",
+                  "58820d1224597753c90aeb13",
+                  "5d6e68c4a4b9361b93413f79",
+                  "5d6e68a8a4b9360b6c0d54e2",
+                  "5d6e68e6a4b9361c140bcfe0",
+                  "5d6e6869a4b9361c140bcfde",
+                  "5d6e68b3a4b9361bca7e50b5",
+                  "5d6e6891a4b9361bd473feea",
+                  "5d6e689ca4b9361bc8618956",
+                  "5d6e68d1a4b93622fe60e845",
+                  "64b8ee384b75259c590fa89b"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "ammoCaliber": "Caliber12g",
+      "defAmmo": "560d5e524bdc2d25448b4571",
+      "defMagType": "0392e531b243fb263c40ffc6",
+      "bFirerate": 450,
+      "RecoilForceUp": 330,
+      "RecoilForceBack": 580,
+      "RecoilCamera": 0.07,
+      "RecolDispersion": 16,
+      "HeatFactorByShot": 2.4,
+      "ShotgunDispersion": 1,
+      "shotgunDispersion": 1
+    },
+    "locales": {
+      "en": {
+        "name": "PKM-12 belt-fed shotgun",
+        "shortName": "PKM-12",
+        "description": "A PKM general-purpose machine gun rebuilt by a Tarkov workshop to run 12 gauge shells from a belt. The rifle barrel was swapped for a heavy smoothbore tube that takes Saiga-12 muzzle devices, and the 100-round box was enlarged to hold a 50-shell belt with widened links. Nobody asked for it, and nobody can stop it."
+      },
+      "po": {
+        "name": "Escopeta de fita PKM-12",
+        "shortName": "PKM-12",
+        "description": "Uma metralhadora PKM refeita numa oficina de Tarkov para disparar cartuchos de calibre 12 em fita. O cano de fuzil virou um tubo liso e grosso que aceita os bocais da Saiga-12, e a caixa de 100 cresceu para levar uma fita de 50 cartuchos com elos alargados. Ninguém pediu, e ninguém consegue impedir."
+      },
+      "ru": {
+        "name": "Ленточное ружье ПКМ-12 12к",
+        "shortName": "ПКМ-12",
+        "description": "Единый пулемет ПКМ, переделанный в одной из мастерских Таркова под ленту с патронами 12 калибра. Винтовочный ствол заменили тяжелой гладкой трубой, на которую ставятся дульные устройства от Сайги-12, а короб на 100 патронов увеличили под ленту на 50 патронов с расширенными звеньями. Никто об этом не просил, и никто не сможет это остановить."
+      }
+    },
+    "fleaPriceRoubles": 110000,
+    "handbookPriceRoubles": 80000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "f1356d48ee823965a7ae5be0": {
+    "itemTplToClone": "646371faf2404ab67905c8e9",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "pkm12/barrel_pkm_zid_std_658mm_762x54r.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "9f7f6f05136c6396ed194dfc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "f1356d48ee823965a7ae5be0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58272d7f2459774f6311ddfd",
+                  "59fb137a86f7740adb646af1",
+                  "576167ab2459773cad038c43",
+                  "5b363e1b5acfc4771e1c5e80",
+                  "59c0ec5b86f77435b128bfca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Weight": 2.9,
+      "Ergonomics": -13,
+      "Recoil": -8,
+      "CenterOfImpact": 0.45,
+      "ShotgunDispersion": 1.15,
+      "Velocity": 13,
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11
+    },
+    "locales": {
+      "en": {
+        "name": "PKM-12 658mm 12ga smoothbore barrel",
+        "shortName": "PKM-12 658mm",
+        "description": "A heavy 658mm smoothbore 12 gauge barrel for the PKM-12, with the PKM gas block, front sight and carry handle. The muzzle is threaded for Saiga-12 devices."
+      },
+      "po": {
+        "name": "Cano liso 12ga de 658 mm para PKM-12",
+        "shortName": "PKM-12 658mm",
+        "description": "Cano liso pesado de calibre 12 e 658 mm para a PKM-12, com o bloco de gás, a massa de mira e a alça de transporte da PKM. A boca tem rosca para os bocais da Saiga-12."
+      },
+      "ru": {
+        "name": "Гладкий ствол 658мм 12к для ПКМ-12",
+        "shortName": "ПКМ-12 658мм",
+        "description": "Тяжелый гладкий ствол 12 калибра длиной 658мм для ПКМ-12, с газовым блоком, мушкой и ручкой для переноски от ПКМ. Дульная часть имеет резьбу под устройства от Сайги-12."
+      }
+    },
+    "fleaPriceRoubles": 22000,
+    "handbookPriceRoubles": 18000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "0392e531b243fb263c40ffc6": {
+    "itemTplToClone": "646372518610c40fc20204e8",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "pkm12/mag_pkm_zid_pk_std_762x54r_100.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "74c4223af4a8dcbdf71566c6",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "0392e531b243fb263c40ffc6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "560d5e524bdc2d25448b4571",
+                  "5d6e6772a4b936088465b17c",
+                  "5d6e67fba4b9361bc73bc779",
+                  "5d6e6806a4b936088465b17e",
+                  "5d6e68dea4b9361bcc29e659",
+                  "5d6e6911a4b9361bd5780d52",
+                  "5c0d591486f7744c505b416f",
+                  "58820d1224597753c90aeb13",
+                  "5d6e68c4a4b9361b93413f79",
+                  "5d6e68a8a4b9360b6c0d54e2",
+                  "5d6e68e6a4b9361c140bcfe0",
+                  "5d6e6869a4b9361c140bcfde",
+                  "5d6e68b3a4b9361bca7e50b5",
+                  "5d6e6891a4b9361bd473feea",
+                  "5d6e689ca4b9361bc8618956",
+                  "5d6e68d1a4b93622fe60e845",
+                  "64b8ee384b75259c590fa89b"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 1.7
+    },
+    "locales": {
+      "en": {
+        "name": "PKM-12 12ga 50-round box",
+        "shortName": "PK-12 50",
+        "description": "An enlarged PK ammo box holding a 50-shell belt of 12 gauge with widened links. Fits only the PKM-12."
+      },
+      "po": {
+        "name": "Caixa de 50 cartuchos 12ga para PKM-12",
+        "shortName": "PK-12 50",
+        "description": "Uma caixa de munição da PK aumentada, com uma fita de 50 cartuchos de calibre 12 e elos alargados. Só serve na PKM-12."
+      },
+      "ru": {
+        "name": "Короб на 50 патронов 12к для ПКМ-12",
+        "shortName": "ПК-12 50",
+        "description": "Увеличенный патронный короб от ПК с лентой на 50 патронов 12 калибра и расширенными звеньями. Подходит только для ПКМ-12."
+      }
+    },
+    "fleaPriceRoubles": 14000,
+    "handbookPriceRoubles": 12000,
+    "addtoTraders": true,
+    "traders": {
+      "54cb50c76803fa8b248b4571": {
+        "f5d122d5cc339d1243d0132d": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 999999,
+            "buyRestrictionMax": 5
+          },
+          "barters": [
+            {
+              "count": 12000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoSecureFilters": false
+  }
+}
